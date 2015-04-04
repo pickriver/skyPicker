@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C8844C1ACE806E00585D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8844B1ACE806E00585D05 /* main.m */; };
+		49C8844F1ACE806E00585D05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8844E1ACE806E00585D05 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49C884521ACE806E00585D05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C884511ACE806E00585D05 /* ViewController.m */; };
+		49C884551ACE806E00585D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C884531ACE806E00585D05 /* Main.storyboard */; };
+		49C884571ACE806E00585D05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C884561ACE806E00585D05 /* Images.xcassets */; };
+		49C8845A1ACE806E00585D05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C884581ACE806E00585D05 /* LaunchScreen.xib */; };
+		49C884661ACE806E00585D05 /* skyPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C884651ACE806E00585D05 /* skyPickerTests.m */; };
+		49C884781ACE80FE00585D05 /* PickerDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C884711ACE80FE00585D05 /* PickerDataItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49C884791ACE80FE00585D05 /* PopBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C884731ACE80FE00585D05 /* PopBasicView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49C8847B1ACE80FE00585D05 /* skyPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C884771ACE80FE00585D05 /* skyPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49C8847E1ACE82DE00585D05 /* examplePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8847D1ACE82DE00585D05 /* examplePopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C884601ACE806E00585D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C8843E1ACE806E00585D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C884451ACE806E00585D05;
+			remoteInfo = skyPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C884461ACE806E00585D05 /* skyPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skyPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C8844A1ACE806E00585D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C8844B1ACE806E00585D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49C8844D1ACE806E00585D05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49C8844E1ACE806E00585D05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49C884501ACE806E00585D05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49C884511ACE806E00585D05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49C884541ACE806E00585D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C884561ACE806E00585D05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49C884591ACE806E00585D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49C8845F1ACE806E00585D05 /* skyPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skyPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C884641ACE806E00585D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C884651ACE806E00585D05 /* skyPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyPickerTests.m; sourceTree = "<group>"; };
+		49C884701ACE80FE00585D05 /* PickerDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerDataItem.h; sourceTree = "<group>"; };
+		49C884711ACE80FE00585D05 /* PickerDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerDataItem.m; sourceTree = "<group>"; };
+		49C884721ACE80FE00585D05 /* PopBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBasicView.h; sourceTree = "<group>"; };
+		49C884731ACE80FE00585D05 /* PopBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBasicView.m; sourceTree = "<group>"; };
+		49C884761ACE80FE00585D05 /* skyPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyPicker.h; sourceTree = "<group>"; };
+		49C884771ACE80FE00585D05 /* skyPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyPicker.m; sourceTree = "<group>"; };
+		49C8847C1ACE82DE00585D05 /* examplePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examplePopView.h; sourceTree = "<group>"; };
+		49C8847D1ACE82DE00585D05 /* examplePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examplePopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C884431ACE806E00585D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C8845C1ACE806E00585D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C8843D1ACE806E00585D05 = {
+			isa = PBXGroup;
+			children = (
+				49C884481ACE806E00585D05 /* skyPicker */,
+				49C884621ACE806E00585D05 /* skyPickerTests */,
+				49C884471ACE806E00585D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C884471ACE806E00585D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C884461ACE806E00585D05 /* skyPicker.app */,
+				49C8845F1ACE806E00585D05 /* skyPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C884481ACE806E00585D05 /* skyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				49C8846F1ACE80FE00585D05 /* skyPicker */,
+				49C8844D1ACE806E00585D05 /* AppDelegate.h */,
+				49C8844E1ACE806E00585D05 /* AppDelegate.m */,
+				49C884501ACE806E00585D05 /* ViewController.h */,
+				49C884511ACE806E00585D05 /* ViewController.m */,
+				49C8847C1ACE82DE00585D05 /* examplePopView.h */,
+				49C8847D1ACE82DE00585D05 /* examplePopView.m */,
+				49C884531ACE806E00585D05 /* Main.storyboard */,
+				49C884561ACE806E00585D05 /* Images.xcassets */,
+				49C884581ACE806E00585D05 /* LaunchScreen.xib */,
+				49C884491ACE806E00585D05 /* Supporting Files */,
+			);
+			path = skyPicker;
+			sourceTree = "<group>";
+		};
+		49C884491ACE806E00585D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C8844A1ACE806E00585D05 /* Info.plist */,
+				49C8844B1ACE806E00585D05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C884621ACE806E00585D05 /* skyPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				49C884651ACE806E00585D05 /* skyPickerTests.m */,
+				49C884631ACE806E00585D05 /* Supporting Files */,
+			);
+			path = skyPickerTests;
+			sourceTree = "<group>";
+		};
+		49C884631ACE806E00585D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C884641ACE806E00585D05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C8846F1ACE80FE00585D05 /* skyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				49C884701ACE80FE00585D05 /* PickerDataItem.h */,
+				49C884711ACE80FE00585D05 /* PickerDataItem.m */,
+				49C884721ACE80FE00585D05 /* PopBasicView.h */,
+				49C884731ACE80FE00585D05 /* PopBasicView.m */,
+				49C884761ACE80FE00585D05 /* skyPicker.h */,
+				49C884771ACE80FE00585D05 /* skyPicker.m */,
+			);
+			path = skyPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C884451ACE806E00585D05 /* skyPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C884691ACE806E00585D05 /* Build configuration list for PBXNativeTarget "skyPicker" */;
+			buildPhases = (
+				49C884421ACE806E00585D05 /* Sources */,
+				49C884431ACE806E00585D05 /* Frameworks */,
+				49C884441ACE806E00585D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skyPicker;
+			productName = skyPicker;
+			productReference = 49C884461ACE806E00585D05 /* skyPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C8845E1ACE806E00585D05 /* skyPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C8846C1ACE806E00585D05 /* Build configuration list for PBXNativeTarget "skyPickerTests" */;
+			buildPhases = (
+				49C8845B1ACE806E00585D05 /* Sources */,
+				49C8845C1ACE806E00585D05 /* Frameworks */,
+				49C8845D1ACE806E00585D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C884611ACE806E00585D05 /* PBXTargetDependency */,
+			);
+			name = skyPickerTests;
+			productName = skyPickerTests;
+			productReference = 49C8845F1ACE806E00585D05 /* skyPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C8843E1ACE806E00585D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = GaoYong;
+				TargetAttributes = {
+					49C884451ACE806E00585D05 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					49C8845E1ACE806E00585D05 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 49C884451ACE806E00585D05;
+					};
+				};
+			};
+			buildConfigurationList = 49C884411ACE806E00585D05 /* Build configuration list for PBXProject "skyPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C8843D1ACE806E00585D05;
+			productRefGroup = 49C884471ACE806E00585D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C884451ACE806E00585D05 /* skyPicker */,
+				49C8845E1ACE806E00585D05 /* skyPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C884441ACE806E00585D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C884551ACE806E00585D05 /* Main.storyboard in Resources */,
+				49C8845A1ACE806E00585D05 /* LaunchScreen.xib in Resources */,
+				49C884571ACE806E00585D05 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C8845D1ACE806E00585D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C884421ACE806E00585D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C884521ACE806E00585D05 /* ViewController.m in Sources */,
+				49C8847E1ACE82DE00585D05 /* examplePopView.m in Sources */,
+				49C884791ACE80FE00585D05 /* PopBasicView.m in Sources */,
+				49C8844F1ACE806E00585D05 /* AppDelegate.m in Sources */,
+				49C884781ACE80FE00585D05 /* PickerDataItem.m in Sources */,
+				49C8847B1ACE80FE00585D05 /* skyPicker.m in Sources */,
+				49C8844C1ACE806E00585D05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C8845B1ACE806E00585D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C884661ACE806E00585D05 /* skyPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C884611ACE806E00585D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C884451ACE806E00585D05 /* skyPicker */;
+			targetProxy = 49C884601ACE806E00585D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49C884531ACE806E00585D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C884541ACE806E00585D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C884581ACE806E00585D05 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C884591ACE806E00585D05 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C884671ACE806E00585D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49C884681ACE806E00585D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C8846A1ACE806E00585D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yong Gao (VHFB68NPJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Gao (VHFB68NPJA)";
+				INFOPLIST_FILE = skyPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49C8846B1ACE806E00585D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = skyPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49C8846D1ACE806E00585D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = skyPickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skyPicker.app/skyPicker";
+			};
+			name = Debug;
+		};
+		49C8846E1ACE806E00585D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = skyPickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skyPicker.app/skyPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C884411ACE806E00585D05 /* Build configuration list for PBXProject "skyPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C884671ACE806E00585D05 /* Debug */,
+				49C884681ACE806E00585D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C884691ACE806E00585D05 /* Build configuration list for PBXNativeTarget "skyPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C8846A1ACE806E00585D05 /* Debug */,
+				49C8846B1ACE806E00585D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C8846C1ACE806E00585D05 /* Build configuration list for PBXNativeTarget "skyPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C8846D1ACE806E00585D05 /* Debug */,
+				49C8846E1ACE806E00585D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C8843E1ACE806E00585D05 /* Project object */;
+}
